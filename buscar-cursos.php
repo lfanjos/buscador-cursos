@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 use Alura\BuscadorDeCursos\Buscador;
@@ -12,4 +13,3 @@ $crawler = new Crawler();
 $buscador = new Buscador($client, $crawler);
 
 $buscador->buscar('https://www.alura.com.br/cursos-online-programacao');
-

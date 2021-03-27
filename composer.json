@@ -28,5 +28,6 @@
     },
     "scripts-descriptions": {
         "er": "Verifica a PSR-12."
-    }
+    },
+    "bin": "buscar-cursos.php"
 }
